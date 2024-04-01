@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="Menu" content="items for menu:">
+    <title>Resturant Menu</title>
+    <style>
+        header {
+            background-color: #ffbb00;
+            color: #0c0c0c;
+            text-align: center;
+            padding: 10px;
+        }
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+        .starter {
+            color: #f32a2a;
+            margin-bottom: 40px;
+            text-align: center;
+
+        }
+        .main {
+            color: #e7f522;
+            margin-bottom: 40px;
+            text-align: center;
+            padding: 30px;
+        }
+        .dessert {
+            color: #d417fa;
+            margin-bottom: 40px;
+            text-align: center;
+            padding: 30px;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resturant Menu</h1>
+    </header>
+    <section>
+        <h2 class="starter">Starters</h2>
+        <ul >
+            <li class="item">Soup<span>$5.99</span></li>
+            <li class="item">Nachos<span>$6.99</span></li>
+            <li class="item">Wings<span>$4.99</span></li>
+        </ul>
+    </section>
+    <section>
+        <h2 class="main">Mains</h2>
+        <ul>
+            <li class="item">Steak<span>$19.99</span></li>
+            <li class="item">Pasta<span>$14.99</span></li>
+            <li class="item">Burger<span>$12.99</span></li>
+        </ul>
+    </section>
+    <section>
+        <h2 class="dessert">Desserts</h2>
+        <ul>
+            <li class="item">Cheesecake<span class="price">$7.99</span></li>
+            <li class="item">Ice Cream<span class="price">$4.99</span></li>
+            <li class="item">Chocolate Cake<span class="price">$6.99</span></li>
+        </ul>
+    </section>
+</body>
